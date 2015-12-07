@@ -1,8 +1,6 @@
 from mysql import connector
 import optparse
 
-## Jason R.
-
 parser = optparse.OptionParser()
 parser.add_option('-i', action="store", help="Enter Job ID#", type="int")
 parser.add_option('-n', action="store", help="Enter Employee Name", type="string")
